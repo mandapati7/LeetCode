@@ -13,6 +13,10 @@ public class TwoSumMyVersion {
 		int[] nums = { 2, 7, 11, 15 };
 		int target = 9;
 		Solution solution = new Solution(nums, target);
-		System.out.println(solution.getIndex());
+		int[] result = solution.getIndex();
+
+		for (int i = 0; i < result.length; i++) {
+			System.out.println(result[i]);
+		}
 	}
 }

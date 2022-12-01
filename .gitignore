@@ -27,3 +27,9 @@ hs_err_pid*
 .project
 .settings/
 # End of https://mrkandreev.name/snippets/gitignore-generator/#Java
+/.idea/compiler.xml
+/master-ds.iml
+/.idea/libraries/Maven__junit_junit_4_12.xml
+/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml
+/.idea/modules.xml
+/.idea/workspace.xml

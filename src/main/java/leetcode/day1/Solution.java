@@ -13,7 +13,7 @@ class Solution {
 		int answer[] = new int[2];
 		boolean foundIndex = false;
 
-		if (null == nums || nums.length == 1) {
+		if (null == nums || nums.length == 0 || nums.length == 1) {
 			return new int[] { -1 };
 		}
 
