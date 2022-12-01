@@ -9,12 +9,12 @@ class Solution {
 		this.target = target;
 	}
 
-	int[] getIndex() {
-		int answer[] = new int[]{-1, -1};
+	Integer[] getIndex() {
+		Integer answer[] = new Integer[2];
 		boolean foundIndex = false;
 
 		if (null == nums || nums.length == 0 || nums.length == 1) {
-			return new int[] { -1 };
+			return null;
 		}
 
 		for (int aIndex = 0; aIndex < nums.length; aIndex++) {
@@ -29,7 +29,7 @@ class Solution {
 			if (foundIndex)
 				break;
 		}
-		return answer;
+		return foundIndex ? answer : null;
 	}
 
 }
