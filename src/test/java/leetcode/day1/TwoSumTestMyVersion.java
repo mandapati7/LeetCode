@@ -46,4 +46,13 @@ public class TwoSumTestMyVersion {
         assertArrayEquals(result, new int[]{-1});
     }
 
+    @Test
+    public void invalidTarget() {
+        int target = 19;
+        Solution solution = new Solution(new int[]{1,2,4}, target);
+        int[] result = solution.getIndex();
+        assertEquals(2, result.length);
+        assertArrayEquals(result, new int[]{-1, -1});
+    }
+
 }

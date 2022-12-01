@@ -10,7 +10,7 @@ class Solution {
 	}
 
 	int[] getIndex() {
-		int answer[] = new int[2];
+		int answer[] = new int[]{-1, -1};
 		boolean foundIndex = false;
 
 		if (null == nums || nums.length == 0 || nums.length == 1) {
