@@ -1,4 +1,4 @@
-package leetcode.day1.twosum;
+package leetcode.day1.twosum.mysolution;
 
 
 import static org.junit.Assert.*;
