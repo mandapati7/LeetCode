@@ -1,4 +1,4 @@
-package leetcode.day1;
+package leetcode.day1.twosum;
 
 class Solution {
 	private int[] nums;
