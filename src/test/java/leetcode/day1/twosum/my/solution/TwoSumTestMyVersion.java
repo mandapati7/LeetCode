@@ -1,9 +1,9 @@
-package leetcode.day1.twosum.mysolution;
+package leetcode.day1.twosum.my.solution;
 
-
-import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import static org.junit.Assert.*;
 
 public class TwoSumTestMyVersion {
 
