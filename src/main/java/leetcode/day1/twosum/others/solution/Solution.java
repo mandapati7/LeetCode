@@ -1,15 +1,8 @@
 package leetcode.day1.twosum.others.solution;
 
 public class Solution {
-	private int[] nums;
-	private int target;
 
-	public Solution(int[] nums, int target) {
-		this.nums = nums;
-		this.target = target;
-	}
-
-	public Integer[] getIndex() {
+	public Integer[] getIndex(int[] nums, int target) {
 		if (null == nums || nums.length == 0 || nums.length == 1) {
 			return null;
 		}

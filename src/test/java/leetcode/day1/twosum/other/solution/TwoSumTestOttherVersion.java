@@ -13,8 +13,8 @@ public class TwoSumTestOttherVersion {
     public void validScenario() {
         int[] nums = {2, 9, 11, 15, 7};
         int target = 9;
-        Solution solution = new Solution(nums, target);
-        Integer[] result = solution.getIndex();
+        Solution solution = new Solution();
+        Integer[] result = solution.getIndex(nums, target);
         assertEquals(2, result.length);
         assertArrayEquals(result, new Integer[]{0, 4});
     }
@@ -23,8 +23,8 @@ public class TwoSumTestOttherVersion {
     public void emptyNumArr() {
         int[] nums = {};
         int target = 9;
-        Solution solution = new Solution(nums, target);
-        Integer[] result = solution.getIndex();
+        Solution solution = new Solution();
+        Integer[] result = solution.getIndex(nums, target);
         assertNull(result);
 
     }
@@ -33,24 +33,24 @@ public class TwoSumTestOttherVersion {
     public void singleElementNumArr() {
         int[] nums = {};
         int target = 9;
-        Solution solution = new Solution(nums, target);
-        Integer[] result = solution.getIndex();
+        Solution solution = new Solution();
+        Integer[] result = solution.getIndex(nums, target);
         assertNull(result);
     }
 
     @Test
     public void nullNumArr() {
         int target = 9;
-        Solution solution = new Solution(null, target);
-        Integer[] result = solution.getIndex();
+        Solution solution = new Solution();
+        Integer[] result = solution.getIndex(null, target);
         assertNull(result);
     }
 
     @Test
     public void invalidTarget() {
         int target = 19;
-        Solution solution = new Solution(new int[]{1,2,4}, target);
-        Integer[] result = solution.getIndex();
+        Solution solution = new Solution();
+        Integer[] result = solution.getIndex(new int[]{1,2,4}, target);
         assertNull(result);
     }
 

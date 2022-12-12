@@ -1,17 +1,8 @@
 package leetcode.day1.twosum.my.solution;
 
 class Solution {
-	private int[] nums;
-	private int target;
-
-	public Solution(int[] nums, int target) {
-		this.nums = nums;
-		this.target = target;
-	}
-
-	Integer[] getIndex() {
+	Integer[] getIndex(int[] nums, int target) {
 		Integer answer[] = new Integer[2];
-		boolean foundIndex = false;
 
 		if (null == nums || nums.length == 0 || nums.length == 1) {
 			return null;
@@ -22,14 +13,11 @@ class Solution {
 				if (nums[aIndex] + nums[bIndex] == target) {
 					answer[0] = aIndex;
 					answer[1] = bIndex;
-					foundIndex = true;
-					break;
+					return answer;
 				}
 			}
-			if (foundIndex)
-				break;
 		}
-		return foundIndex ? answer : null;
+		return null;
 	}
 
 }
