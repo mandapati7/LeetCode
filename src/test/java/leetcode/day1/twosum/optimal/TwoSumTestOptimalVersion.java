@@ -1,13 +1,13 @@
-package leetcode.day1.twosum.other.solution;
+package leetcode.day1.twosum.optimal;
 
 
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-import leetcode.day1.twosum.others.solution.Solution;
+import leetcode.day1.twosum.optimal.solution.Solution;
 
-public class TwoSumTestOttherVersion {
+public class TwoSumTestOptimalVersion {
 
     @Test
     public void validScenario() {

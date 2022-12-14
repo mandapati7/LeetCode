@@ -1,4 +1,4 @@
-package leetcode.day1.twosum.others.solution;
+package leetcode.day1.twosum.other.solution;
 
 public class Solution {
 

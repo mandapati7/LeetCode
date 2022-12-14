@@ -1,4 +1,4 @@
-package leetcode.day1.twosum.others.solution;
+package leetcode.day1.twosum.other.solution;
 
 // Given an array of integers nums and an integer target,
 // return indices of the two numbers such that they add up to target.
